@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -335,21 +335,12 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
-  border-top: 1px solid #c27956;
+  border-top: 1px solid #f3976c;
 }
 
 .navbar-toggle {
   margin: 10px 10px 0 0;
   border: 0px;
-}
-
-.navbar-toggle:hover {
-  background: transparent !important;
-}
-
-.navbar-toggle .icon-bar {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 26px;
 }
 
 .nav-invert .navbar .nav {
@@ -713,6 +704,7 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  color: black;
 }
 
 h3 {
@@ -849,7 +841,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
