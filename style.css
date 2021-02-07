@@ -432,7 +432,26 @@ nav .caret {
   margin: 6px -5px 0 0 !important;
   float: right;
 }
+.navbar-toggle {
+  margin: 10px 10px 0 0;
+  border: 0px;
+}
 
+.navbar-toggle:hover {
+  background: transparent;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 25px;
+}
+
+.navbar-collapse {
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
@@ -867,13 +886,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -891,10 +910,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -903,8 +919,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
