@@ -73,7 +73,6 @@ a:hover {
 
 .bg-repeat {
   background: repeat;
-  background-size: auto !important;
 }
 
 .bg-t-edge {
@@ -263,11 +262,7 @@ a:hover {
   color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.3);
 }
-.citant {
-  font-size: 21px;
-  margin-right: 28%;
-  margin-left: 28%;
-}
+
 .voffset {
   margin-top: 30px;
 }
@@ -442,7 +437,7 @@ nav .caret {
 }
 
 .navbar-toggle:hover {
-  background-color: #f3976c;
+  background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -551,7 +546,7 @@ button {
 
 .showScrollTop {
   font-size: 14px;
-  opacity: 0;
+  opacity: 1;
 }
 
 a[data-lightbox] {
@@ -794,10 +789,6 @@ h4 {
   margin-right: 20%;
   margin-left: 20%;
 }
-.background-dark-ss {
-  background-color: rgba(0, 0, 0, 0.603);
-  padding: 10px;
-}
 
 .bold-link {
   font-weight: 900;
@@ -827,9 +818,7 @@ h4 {
 .tc-white {
   color: #f3976c !important;
 }
-.tc-black {
-  color: black;
-}
+
 .btn-atomic-tangerine {
   background: #f3976c;
   color: #000000 !important;
@@ -960,9 +949,6 @@ h4 {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: none !important;
-  }
-  .citant {
-    margin: auto;
   }
   .navbar.row {
     margin-left: 0;
