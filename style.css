@@ -64,16 +64,16 @@ a:hover {
 .bg-tl-edge,
 .bg-bl-edge,
 .bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-  -webkit-background-size: auto !important;
-  -moz-background-size: auto !important;
-  -o-background-size: auto !important;
-  background-size: auto !important;
+.bg-br-edge {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
 }
 
 .bg-repeat {
   background: repeat;
+  background-size: auto !important;
 }
 
 .bg-t-edge {
@@ -263,7 +263,11 @@ a:hover {
   color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.3);
 }
-
+.citant {
+  font-size: 21px;
+  margin-right: 28%;
+  margin-left: 28%;
+}
 .voffset {
   margin-top: 30px;
 }
@@ -438,7 +442,7 @@ nav .caret {
 }
 
 .navbar-toggle:hover {
-  background: transparent;
+  background-color: #f3976c;
 }
 
 .navbar-toggle .icon-bar {
@@ -951,6 +955,9 @@ h4 {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: none !important;
   }
+  .citant {
+    margin: auto;
+  }
   .navbar.row {
     margin-left: 0;
     margin-right: 0;
@@ -1070,6 +1077,10 @@ h4 {
   .bloc {
     padding-left: 0;
     padding-right: 0;
+  }
+  .text-margin p {
+    margin: auto;
+    font-size: 18px;
   }
 }
 
