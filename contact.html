@@ -96,17 +96,18 @@
           <div class="row">
             <div class="col-sm-6">
               <form
+                role="message envoyé"
                 id="form_1"
                 novalidate
                 success-msg="Your message has been sent."
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label for="name"> Nom </label>
+                  <label role="nom" for="name"> Nom </label>
                   <input type="text" id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label for="email"> Adresse email </label>
+                  <label role="email" for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -115,7 +116,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label for="input_504">
+                  <label role="nous connaitre" for="input_504">
                     Comment nous avez-vous connu ?
                   </label>
                   <input
@@ -126,7 +127,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label for="message">
+                  <label role="message" for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -138,6 +139,7 @@
                   ></textarea>
                 </div>
                 <button
+                  rolev="envoyé message"
                   class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                   type="submit"
                 >
