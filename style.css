@@ -551,7 +551,7 @@ button {
 
 .showScrollTop {
   font-size: 14px;
-  opacity: 1;
+  opacity: 0;
 }
 
 a[data-lightbox] {
@@ -794,6 +794,10 @@ h4 {
   margin-right: 20%;
   margin-left: 20%;
 }
+.background-dark-ss {
+  background-color: rgba(0, 0, 0, 0.603);
+  padding: 10px;
+}
 
 .bold-link {
   font-weight: 900;
@@ -823,7 +827,9 @@ h4 {
 .tc-white {
   color: #f3976c !important;
 }
-
+.tc-black {
+  color: black;
+}
 .btn-atomic-tangerine {
   background: #f3976c;
   color: #000000 !important;
