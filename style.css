@@ -3,27 +3,15 @@ body {
   padding: 0;
   background: #fff;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
 }
 
 @keyframes fa-spin {
   0% {
-    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
@@ -76,9 +64,6 @@ a:hover {
   clear: both;
   background: 50% 50% no-repeat;
   padding: 0 50px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   position: relative;
 }
@@ -109,20 +94,11 @@ a:hover {
 .bg-bl-edge,
 .bg-tr-edge,
 .bg-br-edge {
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
   background-size: cover !important;
 }
-
 .bg-repeat {
   background: repeat;
 }
-
-.bg-t-edge {
-  background: top no-repeat;
-}
-
 .bloc-bg-texture::before {
   content: "";
   background-size: 2px 2px;
@@ -132,7 +108,6 @@ a:hover {
   left: 0;
   right: 0;
 }
-
 .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
@@ -410,7 +385,6 @@ a:hover {
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
-    -webkit-transform: translateY(-50%);
   }
   .nav > li .dropdown-menu a,
   .nav > li .dropdown-menu a:hover {
@@ -493,7 +467,6 @@ nav .caret {
 .navbar-collapse {
   padding: 0;
   overflow-x: hidden;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .mg-md {
@@ -616,12 +589,10 @@ a[data-lightbox]:hover::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
   opacity: 0.6;
-  -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
 }
 
@@ -1010,7 +981,6 @@ h4 {
   .site-navigation {
     position: inherit;
     transform: none;
-    -webkit-transform: none;
     -ms-transform: none;
   }
   .nav > li {
