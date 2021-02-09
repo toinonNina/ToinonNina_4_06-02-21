@@ -981,7 +981,6 @@ h4 {
   .site-navigation {
     position: inherit;
     transform: none;
-    -ms-transform: none;
   }
   .nav > li {
     margin-top: 0;
@@ -1018,7 +1017,6 @@ h4 {
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
-    -webkit-box-shadow: none;
     box-shadow: none;
   }
   .navbar-brand img {
