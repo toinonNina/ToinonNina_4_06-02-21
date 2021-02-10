@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: http://www.sitemaps.org/schemas/sitemap/0.9
