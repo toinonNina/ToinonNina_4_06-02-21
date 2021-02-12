@@ -1,3 +1,54 @@
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url(../fonts/glyphicons-halflings-regular.eot);
+  src: url(../fonts/glyphicons-halflings-regular.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/glyphicons-halflings-regular.woff2) format("woff2"),
+    url(../fonts/glyphicons-halflings-regular.woff) format("woff"),
+    url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"),
+    url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular)
+      format("svg");
+}
+@font-face {
+  font-family: et-line;
+  src: url(../fonts/et-line.eot);
+  src: url(../fonts/et-line.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/et-line.woff) format("woff"),
+    url(../fonts/et-line.ttf) format("truetype"),
+    url(../fonts/et-line.svg#et-line) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.et-icon-browser,
+.et-icon-edit,
+.et-icon-presentation {
+  font-family: et-line;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+.et-icon-browser:before {
+  content: "\e00c";
+  font-weight: 600;
+}
+
+.et-icon-presentation:before {
+  content: "\e00e";
+  font-weight: 600;
+}
+
+.et-icon-edit:before {
+  content: "\e01c";
+  font-weight: 600;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -305,6 +356,7 @@ a:hover {
   font-size: 32px;
   margin-bottom: 10%;
 }
+/*------------------------------------------------nav --------------------*/
 
 .navbar {
   margin-bottom: 0;
@@ -376,6 +428,12 @@ a:hover {
   display: flex;
   justify-content: center;
 }
+.flex-social {
+  display: flex;
+  justify-content: center;
+}
+
+/* ----------------------------------------------------------responsive -------------------------------------------------*/
 
 /* ----------------------------------------------------------responsive -------------------------------------------------*/
 
